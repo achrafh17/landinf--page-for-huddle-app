@@ -1,0 +1,401 @@
+#bg-top {
+  z-index: -1;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(193, 100%, 96%);
+}
+/*top part of the landing page*/
+.top-part {
+  position: absolute;
+  top: 10%;
+  left: 7%;
+  background-color: hsl(193, 100%, 96%);
+  background-size: cover;
+}
+/*entete conctient button et  logo*/
+.entete {
+  display: flex;
+  gap: 50vw;
+}
+#logo-huddle {
+  width: 250px;
+  height: 40px;
+}
+/*button try it free*/
+#try-it {
+  width: 240px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 1px 1px 5px 1px rgb(232, 231, 231);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 120px;
+}
+#text-inside-button {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+#try-it:hover #text-inside-button {
+  color: hsl(208, 11%, 55%);
+}
+/*body top part*/
+.body-top-part {
+  display: flex;
+  margin-top: 70px;
+}
+/*image mockup*/
+#mockup {
+  width: 720px;
+  margin-right: 60px;
+}
+/*text top part body*/
+.text-and-button {
+  padding-right: 6%;
+  margin-top: 5%;
+}
+#build-community {
+  color: hsl(192, 100%, 9%);
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+}
+#build-community-decription {
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 25px;
+}
+/*button get started for free*/
+#get-started-for-free {
+  width: 280px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  cursor: pointer;
+}
+#get-started-for-free:hover {
+  opacity: 0.7;
+}
+#text-inside-button-get-started {
+  color: white;
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
+}
+/*second part*/
+.second-part {
+  margin-left: 8%;
+  justify-content: center;
+  align-items: center;
+}
+.second-part-items-one {
+  width: 90%;
+  height: 60vh;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgb(205, 204, 204);
+  margin-top: 150px;
+  display: flex;
+  padding: 40px;
+}
+
+.second-part-items-two {
+  width: 90%;
+  height: 60vh;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgb(205, 204, 204);
+  margin-top: 50px;
+  display: flex;
+  padding: 40px;
+  gap: 100px;
+}
+.second-part-items-three {
+  width: 90%;
+  height: 60vh;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgb(205, 204, 204);
+  margin-top: 50px;
+  display: flex;
+  padding: 40px;
+}
+/*inside the second part item1*/
+.text-grow-together {
+  width: 50%;
+  height: 100px;
+  padding-left: 70px;
+  margin-top: 90px;
+}
+#image-grow-together {
+  width: 40%;
+  height: 400px;
+}
+#grow-together {
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 60px;
+}
+#grow-together-decription {
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(208, 11%, 55%);
+  font-size: 20px;
+  padding-right: 130px;
+  line-height: 1.5;
+}
+/*inside the second part item2*/
+.text-folowing-conversastion {
+  width: 50%;
+  height: 100px;
+  padding-left: 70px;
+  margin-top: 90px;
+}
+#folllowing-conversastion-image {
+  width: 40%;
+  height: 400px;
+}
+#flowing-conversation {
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 55px;
+}
+#flowing-conversation-description {
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(208, 11%, 55%);
+  font-size: 20px;
+  padding-right: 130px;
+  line-height: 1.5;
+}
+/*inside the second part item3*/
+.text-your-user {
+  width: 50%;
+  height: 100px;
+  padding-left: 70px;
+  margin-top: 90px;
+}
+#your-user-image {
+  width: 40%;
+  height: 400px;
+}
+#your-user {
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 60px;
+}
+#your-user-description {
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(208, 11%, 55%);
+  font-size: 20px;
+  padding-right: 130px;
+  line-height: 1.5;
+}
+.window {
+  width: 50%;
+  height: 250px;
+  background-color: white;
+  margin-left: 25%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgb(205, 204, 204);
+  position: absolute;
+  margin-top: -150px;
+}
+#question {
+  font-weight: 600;
+  font-family: "League Spartan", sans-serif;
+  color: hsl(192, 100%, 9%);
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+}
+/*button footer*/
+#get-started-for-free-footer {
+  width: 280px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  cursor: pointer;
+  margin-left: 30%;
+}
+#get-started-for-free-footer:hover {
+  opacity: 0.7;
+}
+/*footer*/
+footer {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  height: 500px;
+  z-index: -1;
+  position: static;
+  margin-top: 300px;
+}
+#huddle-logo {
+  padding-left: 50px;
+  width: 200px;
+  filter: brightness(0) saturate(100%) invert(100%);
+  margin-top: 130px;
+}
+/*informations inside the footer*/
+.contact-informations {
+  padding-right: 9px;
+}
+.extra-information-footer {
+  display: flex;
+  margin-top: 30px;
+}
+/*first row------------------------------------------------------*/
+.localisation {
+  display: flex;
+  gap: 10px;
+}
+#localisation-logo {
+  width: 15px;
+  height: 15px;
+  padding-left: 50px;
+  margin-top: 12px;
+}
+#localisation {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  line-height: 1.5;
+}
+.phone {
+  display: flex;
+  gap: 10px;
+}
+#phone-logo {
+  width: 15px;
+  height: 15px;
+  padding-left: 50px;
+  margin-top: 12px;
+}
+#phone-number {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+}
+.mail {
+  display: flex;
+  gap: 10px;
+}
+#logo-mail {
+  width: 15px;
+  height: 15px;
+  padding-left: 50px;
+  margin-top: 12px;
+}
+#mail {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+}
+/*second row-------------------------------------------*/
+.about-us {
+  margin-left: 160px;
+}
+#about-us {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#what-we-do {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#FAQ {
+  color: hsl(208, 11%, 55%);
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+/*third row*/
+.contact-us {
+  margin-left: 160px;
+}
+#career {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  cursor: pointer;
+  font-size: 20px;
+}
+#blog {
+  color: hsl(208, 11%, 55%);
+  font-weight: 400;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#contact-us {
+  color: hsl(208, 11%, 55%);
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 40px;
+  cursor: pointer;
+  font-size: 20px;
+}
+#about-us:hover,
+#what-we-do:hover,
+#FAQ:hover,
+#career:hover,
+#blog:hover,
+#contact-us:hover {
+  text-decoration: underline;
+}
+/*Social media*/
+.social-media {
+  margin-top: -120px;
+  margin-left: 230px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+i {
+  font-size: 25px;
+  border-radius: solid 1px 100%;
+  color: white;
+  border: 2px solid #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+i:hover {
+  color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+}
+.copyright-bottom {
+  position: absolute;
+  right: 40px;
+}
+#copyright-bottom {
+  color: hsl(208, 11%, 55%);
+  font-weight: 500;
+  font-family: "League Spartan", sans-serif;
+  margin-top: 40px;
+}
